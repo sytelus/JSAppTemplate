@@ -1,9 +1,9 @@
 {
-  "name": "MyProject",
+  "name": "fbtidy",
   "version": "0.0.0",
   "dependencies": {
     "requirejs": "latest",
-    "jquery": "latest",
+    "jquery": "1.*",
     "requirejs-domready": "latest",
     "javascript-debug": "latest",
     "lodash": "latest",
@@ -25,6 +25,9 @@
     "knockoutjs": "git://github.com/sytelus/knockout#78bf1c1d8fbd9be1e92abf97949885dc6ff9a7ab",
     "mousetrap": "latest",
     "typeahead.js": "latest",
-	"typeahead-less": "git://github.com/hyspace/typeahead.js-bootstrap3.less"
+    "typeahead-less": "git://github.com/hyspace/typeahead.js-bootstrap3.less"
+  },
+  "resolutions": {
+    "jquery": "~2.1.0"
   }
 }

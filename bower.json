@@ -1,0 +1,7 @@
+{
+  "name": "MyProject",
+  "version": "0.0.0",
+  "dependencies": {
+    "DotNetCommonUtils": "latest"
+  }
+}

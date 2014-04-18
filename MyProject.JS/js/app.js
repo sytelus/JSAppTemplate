@@ -8,9 +8,6 @@
 
         globalEvents(utils);
 
-        //Setup app specific template helpers
-        templateHelpers.registerAll(utils);
-
         $("#footer .statusBox").statusBox();
     });
 });
